@@ -93,7 +93,7 @@ class _HomeFragmentState extends State<HomeFragment> {
                       horizontal: 16,
                     ),
                     child: HomeFragmentWidget.latestNewsSection(
-                      
+                      size,
                     ),
                   ),
                 ],

@@ -4,6 +4,7 @@ import 'package:pertemuan_v/configs/app_routes.dart';
 import 'package:pertemuan_v/models/user.dart';
 import 'package:pertemuan_v/modules/home_screen/fragments/home_fragment/home_fragment.dart';
 import 'package:pertemuan_v/modules/home_screen/fragments/menu_fragment/menu_fragment.dart';
+import 'package:pertemuan_v/modules/home_screen/fragments/news_fragment/news_fragment.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({
@@ -63,6 +64,7 @@ class _HomeScreenState extends State<HomeScreen> {
             user: user,
             homeScaffold: scaffoldKey,
           ),
+          const NewsFragment(),
           const MenuFragment()
         ],
       ),

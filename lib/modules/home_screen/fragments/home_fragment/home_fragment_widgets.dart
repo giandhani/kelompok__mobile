@@ -36,7 +36,7 @@ class HomeFragmentWidget {
     );
   }
 
-  static latestNewsSection() {
+  static latestNewsSection(Size size) {
     return LatestNewsSection();
   }
 }
